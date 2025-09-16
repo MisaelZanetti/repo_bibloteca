@@ -27,7 +27,7 @@ export default function Inicio() {
         </ul>
       </nav>
 
-      <Outlet />
+      <Outlet context={librosIniciales} />
     </>
   )
 }
